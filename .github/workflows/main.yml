@@ -20,7 +20,7 @@ jobs:
 
     - name: Authenticate with Ngrok
       env:
-        NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
+        NGROK_AUTH_TOKEN: 2S1tGwgj12MGLNqsoeMMQ6nPxdn_3PUaNy8kwXJZ2UJqQ2reX
       run: ./ngrok authtoken $NGROK_AUTH_TOKEN
 
     - name: Start Ngrok RDP tunnel
